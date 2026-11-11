@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-#include <TinyGPS++.h>
+#include <TinyGPSPlus.h>
 
 SoftwareSerial gpsSerial(4, 3);   // RX=D4 (GPS TX), TX=D3 unused
 SoftwareSerial espSerial(5, 6);   // RX=D5 unused, TX=D6 -> divider -> ESP32 GPIO16
